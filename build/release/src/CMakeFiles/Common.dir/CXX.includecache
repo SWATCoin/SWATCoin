@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../src/CryptoNoteConfig.h
+cstdint
+-
+initializer_list
+-
+
+/root/SWATCoin/src/Common/Util.cpp
+Util.h
+/root/SWATCoin/src/Common/Util.h
+cstdio
+-
+boost/filesystem.hpp
+-
+CryptoNoteConfig.h
+/root/SWATCoin/src/Common/CryptoNoteConfig.h
+windows.h
+-
+shlobj.h
+-
+strsafe.h
+-
+sys/utsname.h
+-
+
+/root/SWATCoin/src/Common/Util.h
+string
+-
+system_error
+-
+
